@@ -2,8 +2,8 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='text-white ml-[279px]'>
-        <div className='w-[778px] h-[249px] bg-transparent mt-[180px]'>
+    <div className='text-white pt-[270px] ml-[279px]'>
+        <div className='w-[778px] h-[249px] bg-transparent'>
                 <p className='text-[#FFFFFF] font-[400] text-[56px] leading-[60px]'>Empowering Lives Through
                     Innovative <span className='border-b-[7px] font-[700] border-[#7F93FF]'>AI</span> Technologies.
                 </p>
@@ -13,7 +13,7 @@ function Hero() {
                 <button className='w-[155px] border rounded-[12px] h-[53px] ml-[15px] border-[#6881FF] border-solid'>Learn more</button>
             </div>
         </div>
-        <p className='mt-[80px] h-[30px] text-[24px]'>From Ideas to Software Solutions 💡✨ From Ideas to Software Solutions 🌟✨ From Ideas to      </p>
+        <p className='mt-[80px] h-[30px] text-[24px] bg-gradient-to-r from-[#1C1C1C] via-[#E3E3E3] to-[#1C1C1C] inline-block text-transparent bg-clip-text'>From Ideas to Software Solutions <span className='text-red-500'>💡✨</span> From Ideas to Software Solutions <span className='text-red-500'>🌟✨</span> From Ideas to      </p>
     </div>
   )
 }
