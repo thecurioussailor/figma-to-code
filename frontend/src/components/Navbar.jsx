@@ -39,15 +39,15 @@ function Navbar() {
                         </button> 
                     </div>
                 </div>
-                <div className={`${isOpen ? "hidden" : "block"} relative w-full lg:hidden items-center bg-[#00000033] backdrop-blur-xl`}>
-                <ul className='text-[#E4E6F2] text-[18px] leading-[30px] flex flex-col justify-center items-center gap-[28px]'>
+                <div className={`${isOpen ? "hidden" : "block"} relative w-full h-[200vh] lg:hidden -mt-3 z-30 items-center bg-[#151515]`}>
+                <ul className='text-[#E4E6F2] text-[18px] leading-[30px] mt-20 flex flex-col justify-center items-center gap-[28px]'>
                     <li>About</li>
                     <li>Services</li>
                     <li>Process</li>
                     <li>Work</li>
                     <li>Pricing</li>
                     <li>FAQs</li>
-                    <li>Book a Call</li>
+                    <li className='border top-[12px] flex items-center justify-center border-[#6881FF] mb-64 w-[134px] h-[53px] rounded-[12px]'>Book a Call</li>
                 </ul>
             </div>
             </div>
