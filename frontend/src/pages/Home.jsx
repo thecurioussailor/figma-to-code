@@ -7,8 +7,8 @@ function Home() {
   return (
     <div>
         <div>
-            <img className='absolute left-[261px]' src={e1}/>
-            <img className='absolute left-[560px]' src={e2}/>
+            <img className='absolute lg:left-[261px]' src={e1}/>
+            <img className='absolute lg:left-[560px]' src={e2}/>
         </div>
         <Hero/>
     </div>
