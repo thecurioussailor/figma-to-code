@@ -2,8 +2,8 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='text-white pt-[270px] ml-[279px]'>
-        <div className='w-[778px] h-[249px] bg-transparent'>
+    <div className='text-white lg:pt-[270px] lg:ml-[279px]'>
+        <div className='lg:w-[778px] lg:h-[249px] bg-transparent'>
                 <p className='text-[#FFFFFF] font-[400] text-[56px] leading-[60px]'>Empowering Lives Through
                     Innovative <span className='border-b-[7px] font-[700] border-[#7F93FF]'>AI</span> Technologies.
                 </p>
